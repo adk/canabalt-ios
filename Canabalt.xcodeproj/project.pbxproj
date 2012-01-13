@@ -1061,7 +1061,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4754EFE-9CDA-4260-B87B-1BBEBEB4A168";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "";
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
