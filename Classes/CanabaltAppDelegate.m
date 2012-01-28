@@ -20,7 +20,7 @@
 
 void preloadTextureAtlases()
 {
-  NSDictionary * infoDictionary = nil;
+  NSDictionary * infoDictionary = nil;         
   if (FlxG.iPad)
     infoDictionary = [NSDictionary dictionaryWithContentsOfFile:[NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], @"iPadTextureAtlas.atlas"]];
   else
